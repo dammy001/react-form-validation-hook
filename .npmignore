@@ -1,5 +1,4 @@
 ## the src folder
-src
 .babelrc
 rollup.config.js
 ## node modules folder
