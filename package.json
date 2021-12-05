@@ -4,6 +4,7 @@
   "description": "React Form Validation",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
+  "types": "index.d.ts",
   "private": false,
   "publishConfig": {
     "access": "public"
