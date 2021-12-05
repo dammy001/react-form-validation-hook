@@ -74,13 +74,13 @@ const ValidationRules: any = {
  },
  in: {
   rule: (value: string | number, params: any[]): boolean | '' | 0 =>
-   value && params?.includes(value.toString()),
+   value && params.includes(value.toString()),
   formatter: (fieldName: string, params: any[]): string =>
    `${fieldName} not in any of ${params}`,
  },
  notIn: {
   rule: (value: string | number, params: any[]): boolean | '' | 0 =>
-   value && !params?.includes(value.toString()),
+   value && !params.includes(value.toString()),
   formatter: (fieldName: string, params: any[]): string =>
    `${fieldName} in any of ${params}`,
  },

@@ -3,7 +3,7 @@
 /* eslint-disable no-param-reassign */
 /* eslint-disable no-restricted-syntax */
 /* eslint-disable guard-for-in */
-import { useReducer, ChangeEvent } from 'react';
+import { ChangeEvent, useReducer } from 'react';
 import ValidationRules from '../utils/validationRules';
 
 const validate = ({ key, value, values, checks, customValidator }: any) => {
@@ -48,7 +48,7 @@ const validate = ({ key, value, values, checks, customValidator }: any) => {
 
     if (
      ruleName.match(/nullable/) &&
-     (!value || (value?.constructor === Array && value.length < 1))
+     (!value || (value.constructor === Array && value.length < 1))
     ) {
      return true;
     }
@@ -105,9 +105,9 @@ const useFormValidator = (inputs: Record<string, any>) => {
  };
 
  for (const key in inputs) {
-  initial.checks[key] = inputs[key]?.checks;
-  initial.validators[key] = inputs[key]?.validate;
-  initial.values[key] = inputs[key]?.value;
+  initial.checks[key] = inputs[key].checks;
+  initial.validators[key] = inputs[key].validate;
+  initial.values[key] = inputs[key].value;
   initial.errors[key] = '';
  }
 
@@ -145,10 +145,10 @@ const useFormValidator = (inputs: Record<string, any>) => {
   return true;
  };
 
- const updateField = (e?: ChangeEvent<HTMLInputElement | undefined>): void => {
+ const updateField = (e?: ChangeEvent<HTMLInputElement>): void => {
   validateField({
-   key: e?.target.name,
-   value: e?.target.value,
+   key: (e!.target as HTMLInputElement).name,
+   value: e!.target.value,
   });
  };
 

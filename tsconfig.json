@@ -1,16 +1,22 @@
 {
     "compilerOptions": {
-      "module": "commonjs",
+      "target": "esnext",
+      "module": "esnext",
       "lib": [
-        "ESNext"
+        "ESNext",
+        "DOM",
+        "DOM.Iterable"
       ],
       "noImplicitAny": true,
       "noImplicitThis": true,
       "strictNullChecks": true,
       "strictFunctionTypes": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
       "baseUrl": ".",
       "typeRoots": [
-        "../"
+        "."
       ],
       "types": [],
       "noEmit": true,
@@ -19,5 +25,6 @@
     "files": [
       "index.d.ts"
     ],
-    "include": ["src"]
+    "include": ["src", "index.d.ts"],
+    "exclude": ["node_modules"]
   }
