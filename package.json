@@ -1,10 +1,10 @@
 {
   "name": "@damilaredev/react-form-validation-hook",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Form Validation",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
+  "types": "./index.d.ts",
   "private": false,
   "publishConfig": {
     "access": "public"
