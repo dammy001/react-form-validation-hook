@@ -10,8 +10,8 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc && rollup -c"
+    "build": "tsc && rollup -c",
+    "release": "bumpp --commit --push --tag && npm publish --access=public"
   },
   "repository": {
     "type": "git",
@@ -45,18 +45,17 @@
     "@babel/preset-react": "7.16.7",
     "@babel/runtime": "7.17.9",
     "@rollup/plugin-babel": "5.3.1",
-    "@types/react": "17.0.44",
-    "@types/react-dom": "17.0.15",
-    "autoprefixer": "10.4.4",
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@types/react": ">=17",
+    "@types/react-dom": ">=17",
+    "bumpp": "^7.1.1",
     "rollup": "2.70.1",
-    "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-sourcemaps": "0.6.3",
-    "rollup-plugin-styles": "4.0.0",
-    "rollup-plugin-typescript2": "0.31.2"
+    "rollup-plugin-typescript2": "0.31.2",
+    "typescript": "^4.6.3"
   },
   "peerDependencies": {
     "react": "^17.0.2 || ^18.0.0",
     "react-dom": "^17.0.2 || ^18.0.0"
-  },
-  "dependencies": {}
+  }
 }

@@ -1,12 +1,10 @@
 /* eslint-disable array-callback-return */
 /* eslint-disable import/no-anonymous-default-export */
-import styles from 'rollup-plugin-styles';
 import { terser } from 'rollup-plugin-terser';
 import babel from '@rollup/plugin-babel';
 import typescript from 'rollup-plugin-typescript2';
 import sourcemaps from 'rollup-plugin-sourcemaps';
-import commonjs from 'rollup-plugin-commonjs';
-const autoprefixer = require('autoprefixer');
+import commonjs from '@rollup/plugin-commonjs';
 
 var MODE = [
  {
@@ -39,11 +37,6 @@ MODE.map((m) => {
     exclude: 'node_modules/**',
     plugins: ['@babel/transform-runtime'],
     babelHelpers: 'runtime',
-   }),
-   styles({
-    postcss: {
-     plugins: [autoprefixer()],
-    },
    }),
    terser({
     module: true,
