@@ -9,13 +9,13 @@ specifiers:
   '@babel/runtime': 7.17.9
   '@rollup/plugin-babel': 5.3.1
   '@rollup/plugin-commonjs': 22.0.0
-  '@types/react': '>=17'
-  '@types/react-dom': '>=17'
-  bumpp: ^7.1.1
+  '@types/react': 18.0.9
+  '@types/react-dom': 18.0.4
+  bumpp: 7.1.1
   rollup: 2.73.0
   rollup-plugin-sourcemaps: 0.6.3
   rollup-plugin-typescript2: 0.31.2
-  typescript: ^4.6.3
+  typescript: 4.6.4
 
 devDependencies:
   '@babel/cli': 7.17.10_@babel+core@7.17.12
@@ -26,13 +26,13 @@ devDependencies:
   '@babel/runtime': 7.17.9
   '@rollup/plugin-babel': 5.3.1_13b2a7cabd0dd1a92f9221d63fb85fc9
   '@rollup/plugin-commonjs': 22.0.0_rollup@2.73.0
-  '@types/react': 17.0.44
-  '@types/react-dom': 17.0.15
+  '@types/react': 18.0.9
+  '@types/react-dom': 18.0.4
   bumpp: 7.1.1
   rollup: 2.73.0
   rollup-plugin-sourcemaps: 0.6.3_rollup@2.73.0
-  rollup-plugin-typescript2: 0.31.2_rollup@2.73.0+typescript@4.6.3
-  typescript: 4.6.3
+  rollup-plugin-typescript2: 0.31.2_rollup@2.73.0+typescript@4.6.4
+  typescript: 4.6.4
 
 packages:
 
@@ -1402,14 +1402,14 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/17.0.15:
-    resolution: {integrity: sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==}
+  /@types/react-dom/18.0.4:
+    resolution: {integrity: sha512-FgTtbqPOCI3dzZPZoC2T/sx3L34qxy99ITWn4eoSA95qPyXDMH0ALoAqUp49ITniiJFsXUVBtalh/KffMpg21Q==}
     dependencies:
-      '@types/react': 17.0.44
+      '@types/react': 18.0.9
     dev: true
 
-  /@types/react/17.0.44:
-    resolution: {integrity: sha512-Ye0nlw09GeMp2Suh8qoOv0odfgCoowfM/9MG6WeRD60Gq9wS90bdkdRtYbRkNhXOpG4H+YXGvj4wOWhAC0LJ1g==}
+  /@types/react/18.0.9:
+    resolution: {integrity: sha512-9bjbg1hJHUm4De19L1cHiW0Jvx3geel6Qczhjd0qY5VKVE2X5+x77YxAepuCwVh4vrgZJdgEJw48zrhRIeF4Nw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
@@ -1568,7 +1568,7 @@ packages:
     dev: true
 
   /call-me-maybe/1.0.1:
-    resolution: {integrity: sha1-JtII6onje1y95gJQoV8DHBak1ms=}
+    resolution: {integrity: sha512-wCyFsDQkKPwwF8BDwOiWNx/9K45L/hvggQiDbve+viMNMQnWhrlYIuBk09offfwCRtCO9P6XwUttufzU11WCVw==}
     dev: true
 
   /caniuse-lite/1.0.30001334:
@@ -2012,6 +2012,7 @@ packages:
   /lru-cache/7.8.0:
     resolution: {integrity: sha512-AmXqneQZL3KZMIgBpaPTeI6pfwh+xQ2vutMsyqOu1TBdEXFZgpG/80wuJ531w2ZN7TI0/oc8CPxzh/DKQudZqg==}
     engines: {node: '>=12'}
+    deprecated: Please update to latest patch version to fix memory leak https://github.com/isaacs/node-lru-cache/issues/227
     dev: true
 
   /magic-string/0.25.9:
@@ -2279,7 +2280,7 @@ packages:
       source-map-resolve: 0.6.0
     dev: true
 
-  /rollup-plugin-typescript2/0.31.2_rollup@2.73.0+typescript@4.6.3:
+  /rollup-plugin-typescript2/0.31.2_rollup@2.73.0+typescript@4.6.4:
     resolution: {integrity: sha512-hRwEYR1C8xDGVVMFJQdEVnNAeWRvpaY97g5mp3IeLnzhNXzSVq78Ye/BJ9PAaUfN4DXa/uDnqerifMOaMFY54Q==}
     peerDependencies:
       rollup: '>=1.26.3'
@@ -2292,7 +2293,7 @@ packages:
       resolve: 1.22.0
       rollup: 2.73.0
       tslib: 2.3.1
-      typescript: 4.6.3
+      typescript: 4.6.4
     transitivePeerDependencies:
       - '@types/node'
     dev: true
@@ -2421,8 +2422,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /typescript/4.6.3:
-    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
+  /typescript/4.6.4:
+    resolution: {integrity: sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
