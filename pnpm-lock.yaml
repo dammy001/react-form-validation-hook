@@ -9,7 +9,7 @@ specifiers:
   '@babel/runtime': 7.18.3
   '@rollup/plugin-babel': 5.3.1
   '@rollup/plugin-commonjs': 22.0.0
-  '@types/react': 18.0.9
+  '@types/react': 18.0.10
   '@types/react-dom': 18.0.5
   bumpp: 7.1.1
   rollup: 2.75.0
@@ -26,7 +26,7 @@ devDependencies:
   '@babel/runtime': 7.18.3
   '@rollup/plugin-babel': 5.3.1_@babel+core@7.18.2+rollup@2.75.0
   '@rollup/plugin-commonjs': 22.0.0_rollup@2.75.0
-  '@types/react': 18.0.9
+  '@types/react': 18.0.10
   '@types/react-dom': 18.0.5
   bumpp: 7.1.1
   rollup: 2.75.0
@@ -1437,11 +1437,11 @@ packages:
   /@types/react-dom/18.0.5:
     resolution: {integrity: sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==}
     dependencies:
-      '@types/react': 18.0.9
+      '@types/react': 18.0.10
     dev: true
 
-  /@types/react/18.0.9:
-    resolution: {integrity: sha512-9bjbg1hJHUm4De19L1cHiW0Jvx3geel6Qczhjd0qY5VKVE2X5+x77YxAepuCwVh4vrgZJdgEJw48zrhRIeF4Nw==}
+  /@types/react/18.0.10:
+    resolution: {integrity: sha512-dIugadZuIPrRzvIEevIu7A1smqOAjkSMv8qOfwPt9Ve6i6JT/FQcCHyk2qIAxwsQNKZt5/oGR0T4z9h2dXRAkg==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
