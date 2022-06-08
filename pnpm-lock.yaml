@@ -14,7 +14,7 @@ specifiers:
   bumpp: 7.1.1
   rollup: 2.75.6
   rollup-plugin-sourcemaps: 0.6.3
-  rollup-plugin-typescript2: 0.32.0
+  rollup-plugin-typescript2: 0.32.1
   typescript: 4.7.3
 
 devDependencies:
@@ -31,7 +31,7 @@ devDependencies:
   bumpp: 7.1.1
   rollup: 2.75.6
   rollup-plugin-sourcemaps: 0.6.3_rollup@2.75.6
-  rollup-plugin-typescript2: 0.32.0_rollup@2.75.6+typescript@4.7.3
+  rollup-plugin-typescript2: 0.32.1_rollup@2.75.6+typescript@4.7.3
   typescript: 4.7.3
 
 packages:
@@ -1668,7 +1668,7 @@ packages:
     dev: true
 
   /commondir/1.0.1:
-    resolution: {integrity: sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs=}
+    resolution: {integrity: sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==}
     dev: true
 
   /concat-map/0.0.1:
@@ -2254,8 +2254,8 @@ packages:
       source-map-resolve: 0.6.0
     dev: true
 
-  /rollup-plugin-typescript2/0.32.0_rollup@2.75.6+typescript@4.7.3:
-    resolution: {integrity: sha512-sIiCObzETQagImlNa/xVZY2aKB/7w77EzKAzpmVkXZbDuso6PrW2hdQv6m4/UuMqnzqTFWGF4FPLbVuQISeYZw==}
+  /rollup-plugin-typescript2/0.32.1_rollup@2.75.6+typescript@4.7.3:
+    resolution: {integrity: sha512-RanO8bp1WbeMv0bVlgcbsFNCn+Y3rX7wF97SQLDxf0fMLsg0B/QFF005t4AsGUcDgF3aKJHoqt4JF2xVaABeKw==}
     peerDependencies:
       rollup: '>=1.26.3'
       typescript: '>=2.4.0'
