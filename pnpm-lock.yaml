@@ -15,7 +15,7 @@ specifiers:
   rollup: 2.75.6
   rollup-plugin-sourcemaps: 0.6.3
   rollup-plugin-typescript2: 0.32.1
-  typescript: 4.7.3
+  typescript: 4.7.4
 
 devDependencies:
   '@babel/cli': 7.17.10_@babel+core@7.18.2
@@ -31,8 +31,8 @@ devDependencies:
   bumpp: 7.1.1
   rollup: 2.75.6
   rollup-plugin-sourcemaps: 0.6.3_rollup@2.75.6
-  rollup-plugin-typescript2: 0.32.1_rollup@2.75.6+typescript@4.7.3
-  typescript: 4.7.3
+  rollup-plugin-typescript2: 0.32.1_rollup@2.75.6+typescript@4.7.4
+  typescript: 4.7.4
 
 packages:
 
@@ -2254,7 +2254,7 @@ packages:
       source-map-resolve: 0.6.0
     dev: true
 
-  /rollup-plugin-typescript2/0.32.1_rollup@2.75.6+typescript@4.7.3:
+  /rollup-plugin-typescript2/0.32.1_rollup@2.75.6+typescript@4.7.4:
     resolution: {integrity: sha512-RanO8bp1WbeMv0bVlgcbsFNCn+Y3rX7wF97SQLDxf0fMLsg0B/QFF005t4AsGUcDgF3aKJHoqt4JF2xVaABeKw==}
     peerDependencies:
       rollup: '>=1.26.3'
@@ -2266,7 +2266,7 @@ packages:
       resolve: 1.22.0
       rollup: 2.75.6
       tslib: 2.4.0
-      typescript: 4.7.3
+      typescript: 4.7.4
     dev: true
 
   /rollup/2.75.6:
@@ -2393,8 +2393,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /typescript/4.7.3:
-    resolution: {integrity: sha512-WOkT3XYvrpXx4vMMqlD+8R8R37fZkjyLGlxavMc4iB8lrl8L0DeTcHbYgw/v0N/z9wAFsgBhcsF0ruoySS22mA==}
+  /typescript/4.7.4:
+    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
