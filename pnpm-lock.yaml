@@ -10,7 +10,7 @@ specifiers:
   '@rollup/plugin-babel': 6.0.2
   '@rollup/plugin-commonjs': 23.0.2
   '@types/react': 18.0.24
-  '@types/react-dom': 18.0.7
+  '@types/react-dom': 18.0.8
   bumpp: 8.2.1
   rollup: 3.2.3
   rollup-plugin-sourcemaps: 0.6.3
@@ -27,7 +27,7 @@ devDependencies:
   '@rollup/plugin-babel': 6.0.2_@babel+core@7.19.6+rollup@3.2.3
   '@rollup/plugin-commonjs': 23.0.2_rollup@3.2.3
   '@types/react': 18.0.24
-  '@types/react-dom': 18.0.7
+  '@types/react-dom': 18.0.8
   bumpp: 8.2.1
   rollup: 3.2.3
   rollup-plugin-sourcemaps: 0.6.3_rollup@3.2.3
@@ -1446,8 +1446,8 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/18.0.7:
-    resolution: {integrity: sha512-HaXc+BbqAZE1RdsK3tC8SbkFy6UL2xF76lT9rQs5JkPrJg3rWA3Ou/Lhw3YJQzEDkBpmJ79nBsfnd05WrBd2QQ==}
+  /@types/react-dom/18.0.8:
+    resolution: {integrity: sha512-C3GYO0HLaOkk9dDAz3Dl4sbe4AKUGTCfFIZsz3n/82dPNN8Du533HzKatDxeUYWu24wJgMP1xICqkWk1YOLOIw==}
     dependencies:
       '@types/react': 18.0.24
     dev: true
