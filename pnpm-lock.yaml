@@ -8,7 +8,7 @@ specifiers:
   '@babel/preset-react': 7.18.6
   '@babel/runtime': 7.20.6
   '@rollup/plugin-babel': 6.0.3
-  '@rollup/plugin-commonjs': 23.0.7
+  '@rollup/plugin-commonjs': 24.0.0
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.9
   bumpp: 8.2.1
@@ -25,7 +25,7 @@ devDependencies:
   '@babel/preset-react': 7.18.6_@babel+core@7.20.5
   '@babel/runtime': 7.20.6
   '@rollup/plugin-babel': 6.0.3_@babel+core@7.20.5+rollup@3.7.5
-  '@rollup/plugin-commonjs': 23.0.7_rollup@3.7.5
+  '@rollup/plugin-commonjs': 24.0.0_rollup@3.7.5
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.9
   bumpp: 8.2.1
@@ -1410,8 +1410,8 @@ packages:
       rollup: 3.7.5
     dev: true
 
-  /@rollup/plugin-commonjs/23.0.7_rollup@3.7.5:
-    resolution: {integrity: sha512-hsSD5Qzyuat/swzrExGG5l7EuIlPhwTsT7KwKbSCQzIcJWjRxiimi/0tyMYY2bByitNb3i1p+6JWEDGa0NvT0Q==}
+  /@rollup/plugin-commonjs/24.0.0_rollup@3.7.5:
+    resolution: {integrity: sha512-0w0wyykzdyRRPHOb0cQt14mIBLujfAv6GgP6g8nvg/iBxEm112t3YPPq+Buqe2+imvElTka+bjNlJ/gB56TD8g==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0
