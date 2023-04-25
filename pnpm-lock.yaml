@@ -9,8 +9,8 @@ specifiers:
   '@babel/runtime': 7.21.0
   '@rollup/plugin-babel': 6.0.3
   '@rollup/plugin-commonjs': 24.1.0
-  '@types/react': 18.0.38
-  '@types/react-dom': 18.0.11
+  '@types/react': 18.2.0
+  '@types/react-dom': 18.2.0
   bumpp: 9.1.0
   rollup: 3.21.0
   rollup-plugin-sourcemaps: 0.6.3
@@ -26,8 +26,8 @@ devDependencies:
   '@babel/runtime': 7.21.0
   '@rollup/plugin-babel': 6.0.3_@babel+core@7.21.4+rollup@3.21.0
   '@rollup/plugin-commonjs': 24.1.0_rollup@3.21.0
-  '@types/react': 18.0.38
-  '@types/react-dom': 18.0.11
+  '@types/react': 18.2.0
+  '@types/react-dom': 18.2.0
   bumpp: 9.1.0
   rollup: 3.21.0
   rollup-plugin-sourcemaps: 0.6.3_rollup@3.21.0
@@ -1536,14 +1536,14 @@ packages:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
     dev: true
 
-  /@types/react-dom/18.0.11:
-    resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
+  /@types/react-dom/18.2.0:
+    resolution: {integrity: sha512-8yQrvS6sMpSwIovhPOwfyNf2Wz6v/B62LFSVYQ85+Rq3tLsBIG7rP5geMxaijTUxSkrO6RzN/IRuIAADYQsleA==}
     dependencies:
-      '@types/react': 18.0.38
+      '@types/react': 18.2.0
     dev: true
 
-  /@types/react/18.0.38:
-    resolution: {integrity: sha512-ExsidLLSzYj4cvaQjGnQCk4HFfVT9+EZ9XZsQ8Hsrcn8QNgXtpZ3m9vSIC2MWtx7jHictK6wYhQgGh6ic58oOw==}
+  /@types/react/18.2.0:
+    resolution: {integrity: sha512-0FLj93y5USLHdnhIhABk83rm8XEGA7kH3cr+YUlvxoUGp1xNt/DINUMvqPxLyOQMzLmZe8i4RTHbvb8MC7NmrA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
