@@ -2,15 +2,24 @@
   "name": "@damilaredev/react-form-validation-hook",
   "version": "1.1.0",
   "description": "React Form Validation",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "types": "./index.d.ts",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist"
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ],
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "tsc && rollup -c",
+    "build": "tsc --noEmit && tsup",
+    "prepublish": "pnpm build",
     "release": "bumpp --commit --push --tag && npm publish --access=public"
   },
   "repository": {
@@ -49,9 +58,11 @@
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "bumpp": "9.1.0",
+    "rimraf": "^5.0.1",
     "rollup": "3.22.0",
     "rollup-plugin-sourcemaps": "0.6.3",
     "rollup-plugin-typescript2": "0.34.1",
+    "tsup": "^6.7.0",
     "typescript": "5.0.4"
   },
   "peerDependencies": {

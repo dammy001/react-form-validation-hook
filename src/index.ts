@@ -1,3 +1,3 @@
 import useValidation from './hooks/useValidation';
 
-export default useValidation;
+export default { useValidation };
