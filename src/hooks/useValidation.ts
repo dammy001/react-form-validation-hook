@@ -1,7 +1,13 @@
 import { ChangeEvent, useReducer } from 'react';
 import ValidationRules from '../utils/validationRules';
 
-const validate = ({ key, value, values, checks, customValidator }: any) => {
+export const validate = ({
+  key,
+  value,
+  values,
+  checks,
+  customValidator,
+}: any) => {
   if (checks) {
     const rules = checks.split('|');
 
@@ -92,7 +98,7 @@ const reducer = (state: any, action: Record<string, any>) => {
   }
 };
 
-const useFormValidator = (inputs: Record<string, any>) => {
+export const useFormValidator = (inputs: Record<string, any>) => {
   const initial: Record<string, any> = {
     checks: {},
     values: {},
@@ -181,5 +187,3 @@ const useFormValidator = (inputs: Record<string, any>) => {
     updateField,
   };
 };
-
-export default useFormValidator;

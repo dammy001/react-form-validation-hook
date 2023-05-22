@@ -13,6 +13,7 @@
       "strictFunctionTypes": true,
       "moduleResolution": "node",
       "esModuleInterop": true,
+      "skipLibCheck": true,
       "allowSyntheticDefaultImports": true,
       "baseUrl": ".",
       "typeRoots": [
