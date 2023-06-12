@@ -59,7 +59,7 @@
     "@types/react-dom": "18.2.4",
     "bumpp": "9.1.1",
     "rimraf": "^5.0.1",
-    "rollup": "3.25.0",
+    "rollup": "3.25.1",
     "rollup-plugin-sourcemaps": "0.6.3",
     "rollup-plugin-typescript2": "0.34.1",
     "tsup": "^6.7.0",
