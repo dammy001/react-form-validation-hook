@@ -54,7 +54,7 @@
     "@babel/preset-react": "7.22.5",
     "@babel/runtime": "7.22.5",
     "@rollup/plugin-babel": "6.0.3",
-    "@rollup/plugin-commonjs": "25.0.1",
+    "@rollup/plugin-commonjs": "25.0.2",
     "@types/react": "18.2.12",
     "@types/react-dom": "18.2.5",
     "bumpp": "9.1.1",
