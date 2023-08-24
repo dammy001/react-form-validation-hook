@@ -57,13 +57,13 @@ devDependencies:
     version: 0.6.3(rollup@3.28.1)
   rollup-plugin-typescript2:
     specifier: 0.35.0
-    version: 0.35.0(rollup@3.28.1)(typescript@5.1.6)
+    version: 0.35.0(rollup@3.28.1)(typescript@5.2.2)
   tsup:
     specifier: ^7.0.0
-    version: 7.0.0(typescript@5.1.6)
+    version: 7.0.0(typescript@5.2.2)
   typescript:
-    specifier: 5.1.6
-    version: 5.1.6
+    specifier: 5.2.2
+    version: 5.2.2
 
 packages:
 
@@ -3054,7 +3054,7 @@ packages:
       source-map-resolve: 0.6.0
     dev: true
 
-  /rollup-plugin-typescript2@0.35.0(rollup@3.28.1)(typescript@5.1.6):
+  /rollup-plugin-typescript2@0.35.0(rollup@3.28.1)(typescript@5.2.2):
     resolution: {integrity: sha512-szcIO9hPUx3PhQl91u4pfNAH2EKbtrXaES+m163xQVE5O1CC0ea6YZV/5woiDDW3CR9jF2CszPrKN+AFiND0bg==}
     peerDependencies:
       rollup: '>=1.26.3'
@@ -3066,7 +3066,7 @@ packages:
       rollup: 3.28.1
       semver: 7.5.1
       tslib: 2.4.0
-      typescript: 5.1.6
+      typescript: 5.2.2
     dev: true
 
   /rollup@3.28.1:
@@ -3295,7 +3295,7 @@ packages:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: true
 
-  /tsup@7.0.0(typescript@5.1.6):
+  /tsup@7.0.0(typescript@5.2.2):
     resolution: {integrity: sha512-yYARDRkPq07mO3YUXTvF12ISwWQG57Odve8aFEgLdHyeGungxuKxb19yf9G0W8y59SZFkLnRj1gkoVk1gd5fbQ==}
     engines: {node: '>=16.14'}
     hasBin: true
@@ -3325,7 +3325,7 @@ packages:
       source-map: 0.8.0-beta.0
       sucrase: 3.32.0
       tree-kill: 1.2.2
-      typescript: 5.1.6
+      typescript: 5.2.2
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -3336,8 +3336,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /typescript@5.1.6:
-    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+  /typescript@5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
