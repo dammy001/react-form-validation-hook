@@ -55,7 +55,7 @@
     "@babel/runtime": "7.23.9",
     "@rollup/plugin-babel": "6.0.4",
     "@rollup/plugin-commonjs": "25.0.7",
-    "@types/react": "18.2.59",
+    "@types/react": "18.2.60",
     "@types/react-dom": "18.2.19",
     "bumpp": "9.3.0",
     "rimraf": "^5.0.1",
