@@ -46,8 +46,8 @@ importers:
         specifier: 18.3.0
         version: 18.3.0
       bumpp:
-        specifier: 9.6.0
-        version: 9.6.0
+        specifier: 9.6.1
+        version: 9.6.1
       rimraf:
         specifier: ^6.0.0
         version: 6.0.1
@@ -1183,8 +1183,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  bumpp@9.6.0:
-    resolution: {integrity: sha512-6excO/Xzlci8tu69J0ih6IhH/K70AF4lI0FvqqQ7BkZowDU/x9M/6+u5hXOHPP8oS44Fs/shs5cMXY5ORQ3ckg==}
+  bumpp@9.6.1:
+    resolution: {integrity: sha512-lQlPfyS0GrO5FaOODK+OHQxfCT+6/xWfd3Zt8dzsmzm69RWQfh5fAU9igmeZWOzK/s+4vL+gQLo3yw474ntBZw==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1331,10 +1331,6 @@ packages:
     resolution: {integrity: sha512-VVNz/9Sa0bs5SELtn3f7qhJCDPCF5oMEl5cO9/SSinpE9hbPVvxbd572HH5AKiP7WD8INO53GgfDDhRjkylHEg==}
     engines: {node: '>=18'}
     hasBin: true
-
-  escalade@3.1.2:
-    resolution: {integrity: sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==}
-    engines: {node: '>=6'}
 
   escalade@3.2.0:
     resolution: {integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==}
@@ -3388,7 +3384,7 @@ snapshots:
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
 
-  bumpp@9.6.0:
+  bumpp@9.6.1:
     dependencies:
       '@jsdevtools/ez-spawn': 3.0.4
       c12: 1.11.2
@@ -3548,8 +3544,6 @@ snapshots:
       '@esbuild/win32-arm64': 0.23.1
       '@esbuild/win32-ia32': 0.23.1
       '@esbuild/win32-x64': 0.23.1
-
-  escalade@3.1.2: {}
 
   escalade@3.2.0: {}
 
@@ -4268,13 +4262,13 @@ snapshots:
   update-browserslist-db@1.1.0(browserslist@4.23.2):
     dependencies:
       browserslist: 4.23.2
-      escalade: 3.1.2
+      escalade: 3.2.0
       picocolors: 1.1.0
 
   update-browserslist-db@1.1.0(browserslist@4.23.3):
     dependencies:
       browserslist: 4.23.3
-      escalade: 3.1.2
+      escalade: 3.2.0
       picocolors: 1.1.0
 
   webidl-conversions@4.0.2: {}
