@@ -57,7 +57,7 @@
     "@rollup/plugin-commonjs": "28.0.2",
     "@types/react": "18.3.18",
     "@types/react-dom": "18.3.5",
-    "bumpp": "9.10.1",
+    "bumpp": "9.10.2",
     "rimraf": "^6.0.0",
     "rollup": "4.31.0",
     "rollup-plugin-sourcemaps": "0.6.3",
