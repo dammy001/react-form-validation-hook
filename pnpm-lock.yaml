@@ -59,13 +59,13 @@ importers:
         version: 0.6.3(rollup@4.34.9)
       rollup-plugin-typescript2:
         specifier: 0.36.0
-        version: 0.36.0(rollup@4.34.9)(typescript@5.7.3)
+        version: 0.36.0(rollup@4.34.9)(typescript@5.8.2)
       tsup:
         specifier: ^8.0.0
-        version: 8.4.0(jiti@2.4.1)(typescript@5.7.3)(yaml@2.4.3)
+        version: 8.4.0(jiti@2.4.1)(typescript@5.8.2)(yaml@2.4.3)
       typescript:
-        specifier: 5.7.3
-        version: 5.7.3
+        specifier: 5.8.2
+        version: 5.8.2
 
 packages:
 
@@ -1832,8 +1832,8 @@ packages:
       typescript:
         optional: true
 
-  typescript@5.7.3:
-    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+  typescript@5.8.2:
+    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -3583,7 +3583,7 @@ snapshots:
       rollup: 4.34.9
       source-map-resolve: 0.6.0
 
-  rollup-plugin-typescript2@0.36.0(rollup@4.34.9)(typescript@5.7.3):
+  rollup-plugin-typescript2@0.36.0(rollup@4.34.9)(typescript@5.8.2):
     dependencies:
       '@rollup/pluginutils': 4.2.0
       find-cache-dir: 3.3.2
@@ -3591,7 +3591,7 @@ snapshots:
       rollup: 4.34.9
       semver: 7.5.4
       tslib: 2.6.2
-      typescript: 5.7.3
+      typescript: 5.8.2
 
   rollup@4.34.9:
     dependencies:
@@ -3732,7 +3732,7 @@ snapshots:
 
   tslib@2.6.2: {}
 
-  tsup@8.4.0(jiti@2.4.1)(typescript@5.7.3)(yaml@2.4.3):
+  tsup@8.4.0(jiti@2.4.1)(typescript@5.8.2)(yaml@2.4.3):
     dependencies:
       bundle-require: 5.1.0(esbuild@0.25.0)
       cac: 6.7.14
@@ -3751,14 +3751,14 @@ snapshots:
       tinyglobby: 0.2.12
       tree-kill: 1.2.2
     optionalDependencies:
-      typescript: 5.7.3
+      typescript: 5.8.2
     transitivePeerDependencies:
       - jiti
       - supports-color
       - tsx
       - yaml
 
-  typescript@5.7.3: {}
+  typescript@5.8.2: {}
 
   ufo@1.5.4: {}
 
