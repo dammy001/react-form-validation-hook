@@ -40,11 +40,11 @@ importers:
         specifier: 29.0.0
         version: 29.0.0(rollup@4.53.2)
       '@types/react':
-        specifier: 18.3.26
-        version: 18.3.26
+        specifier: 18.3.27
+        version: 18.3.27
       '@types/react-dom':
         specifier: 18.3.7
-        version: 18.3.7(@types/react@18.3.26)
+        version: 18.3.7(@types/react@18.3.27)
       bumpp:
         specifier: 10.3.1
         version: 10.3.1
@@ -1003,8 +1003,8 @@ packages:
     peerDependencies:
       '@types/react': ^18.0.0
 
-  '@types/react@18.3.26':
-    resolution: {integrity: sha512-RFA/bURkcKzx/X9oumPG9Vp3D3JUgus/d0b67KB0t5S/raciymilkOa66olh78MUI92QLbEJevO7rvqU/kjwKA==}
+  '@types/react@18.3.27':
+    resolution: {integrity: sha512-cisd7gxkzjBKU2GgdYrTdtQx1SORymWyaAFhaxQPK9bYO9ot3Y5OikQRvY0VYQtvwjeQnizCINJAenh/V7MK2w==}
 
   acorn@8.15.0:
     resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
@@ -1161,8 +1161,8 @@ packages:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
-  csstype@3.0.11:
-    resolution: {integrity: sha512-sa6P2wJ+CAbgyy4KFssIb/JNMLxFvKF1pCYCSXS8ZMuqZnMsrxqI2E5sPyoTpxoPU/gVZMzr2zjOfg8GIZOMsw==}
+  csstype@3.2.3:
+    resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
 
   debug@4.4.1:
     resolution: {integrity: sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==}
@@ -2831,14 +2831,14 @@ snapshots:
 
   '@types/prop-types@15.7.5': {}
 
-  '@types/react-dom@18.3.7(@types/react@18.3.26)':
+  '@types/react-dom@18.3.7(@types/react@18.3.27)':
     dependencies:
-      '@types/react': 18.3.26
+      '@types/react': 18.3.27
 
-  '@types/react@18.3.26':
+  '@types/react@18.3.27':
     dependencies:
       '@types/prop-types': 15.7.5
-      csstype: 3.0.11
+      csstype: 3.2.3
 
   acorn@8.15.0: {}
 
@@ -3009,7 +3009,7 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  csstype@3.0.11: {}
+  csstype@3.2.3: {}
 
   debug@4.4.1:
     dependencies:
