@@ -46,8 +46,8 @@ importers:
         specifier: 18.3.7
         version: 18.3.7(@types/react@18.3.27)
       bumpp:
-        specifier: 10.3.2
-        version: 10.3.2
+        specifier: 10.4.0
+        version: 10.4.0
       rimraf:
         specifier: ^6.0.0
         version: 6.1.2
@@ -62,7 +62,7 @@ importers:
         version: 0.36.0(rollup@4.55.1)(typescript@5.9.3)
       tsup:
         specifier: ^8.0.0
-        version: 8.5.1(jiti@2.6.1)(typescript@5.9.3)(yaml@2.8.1)
+        version: 8.5.1(jiti@2.6.1)(typescript@5.9.3)(yaml@2.8.2)
       typescript:
         specifier: 5.9.3
         version: 5.9.3
@@ -1122,8 +1122,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  bumpp@10.3.2:
-    resolution: {integrity: sha512-yUUkVx5zpTywLNX97MlrqtpanI7eMMwFwLntWR2EBVDw3/Pm3aRIzCoDEGHATLIiHK9PuJC7xWI4XNWqXItSPg==}
+  bumpp@10.4.0:
+    resolution: {integrity: sha512-VzJhB4iyZ04w99HreEvXJY/lxzApnE/PRbcFY4cKnOUSRVbRbAf0AIU0DeavrkffW+mclJlkmnQYn9NdwcBk1g==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1133,8 +1133,8 @@ packages:
     peerDependencies:
       esbuild: '>=0.18'
 
-  c12@3.3.2:
-    resolution: {integrity: sha512-QkikB2X5voO1okL3QsES0N690Sn/K9WokXqUsDQsWy5SnYb+psYQFGA10iy1bZHj3fjISKsI67Q90gruvWWM3A==}
+  c12@3.3.3:
+    resolution: {integrity: sha512-750hTRvgBy5kcMNPdh95Qo+XUBeGo8C7nsKSmedDmaQI+E0r82DwHeM6vBewDe4rGFbnxoa4V9pw+sPh5+Iz8Q==}
     peerDependencies:
       magicast: '*'
     peerDependenciesMeta:
@@ -1155,6 +1155,10 @@ packages:
   chokidar@4.0.3:
     resolution: {integrity: sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==}
     engines: {node: '>= 14.16.0'}
+
+  chokidar@5.0.0:
+    resolution: {integrity: sha512-TQMmc3w+5AxjpL8iIiwebF73dRDF4fBIieAqGn9RGCWaEVwQ6Fb2cGe31Yns0RRIzii5goJ1Y7xbMwo1TxMplw==}
+    engines: {node: '>= 20.19.0'}
 
   citty@0.1.6:
     resolution: {integrity: sha512-tskPPKEs8D2KPafUypv2gxwJP8h/OaJmC82QQGGDQcHvXX43xF2VDACcJVmZ0EuSxkpO9Kc4MlrA3q0+FG58AQ==}
@@ -1622,6 +1626,10 @@ packages:
     resolution: {integrity: sha512-GDhwkLfywWL2s6vEjyhri+eXmfH6j1L7JE27WhqLeYzoh/A3DBaYGEj2H/HFZCn/kMfim73FXxEJTw06WtxQwg==}
     engines: {node: '>= 14.18.0'}
 
+  readdirp@5.0.0:
+    resolution: {integrity: sha512-9u/XQ1pvrQtYyMpZe7DXKv2p5CNvyVwzUB6uhLAnQwHMSgKMBR62lc7AHljaeteeHXn11XTAaLLUVZYVZyuRBQ==}
+    engines: {node: '>= 20.19.0'}
+
   regenerate-unicode-properties@10.2.0:
     resolution: {integrity: sha512-DqHn3DwbmmPVzeKj9woBadqmXxLvQoQIwu7nopMc72ztvxVmVk2SBhSnx67zuye5TP+lJsb/TBQsjLKhnDf3MA==}
     engines: {node: '>=4'}
@@ -1868,8 +1876,8 @@ packages:
   yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
 
-  yaml@2.8.1:
-    resolution: {integrity: sha512-lcYcMxX2PO9XMGvAJkJ3OsNMw+/7FKes7/hgerGUYWIoWu5j/+YQqcZr5JnPZWzOsEBgMbSbiSTn/dv/69Mkpw==}
+  yaml@2.8.2:
+    resolution: {integrity: sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A==}
     engines: {node: '>= 14.6'}
     hasBin: true
 
@@ -3011,11 +3019,11 @@ snapshots:
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.25.1)
 
-  bumpp@10.3.2:
+  bumpp@10.4.0:
     dependencies:
       ansis: 4.2.0
       args-tokenizer: 0.3.0
-      c12: 3.3.2
+      c12: 3.3.3
       cac: 6.7.14
       escalade: 3.2.0
       jsonc-parser: 3.3.1
@@ -3023,7 +3031,7 @@ snapshots:
       semver: 7.7.3
       tinyexec: 1.0.2
       tinyglobby: 0.2.15
-      yaml: 2.8.1
+      yaml: 2.8.2
     transitivePeerDependencies:
       - magicast
 
@@ -3032,9 +3040,9 @@ snapshots:
       esbuild: 0.27.0
       load-tsconfig: 0.2.5
 
-  c12@3.3.2:
+  c12@3.3.3:
     dependencies:
-      chokidar: 4.0.3
+      chokidar: 5.0.0
       confbox: 0.2.2
       defu: 6.1.4
       dotenv: 17.2.3
@@ -3067,6 +3075,10 @@ snapshots:
   chokidar@4.0.3:
     dependencies:
       readdirp: 4.1.2
+
+  chokidar@5.0.0:
+    dependencies:
+      readdirp: 5.0.0
 
   citty@0.1.6:
     dependencies:
@@ -3477,12 +3489,12 @@ snapshots:
       exsolve: 1.0.8
       pathe: 2.0.3
 
-  postcss-load-config@6.0.1(jiti@2.6.1)(yaml@2.8.1):
+  postcss-load-config@6.0.1(jiti@2.6.1)(yaml@2.8.2):
     dependencies:
       lilconfig: 3.1.3
     optionalDependencies:
       jiti: 2.6.1
-      yaml: 2.8.1
+      yaml: 2.8.2
 
   rc9@2.1.2:
     dependencies:
@@ -3507,6 +3519,8 @@ snapshots:
     optional: true
 
   readdirp@4.1.2: {}
+
+  readdirp@5.0.0: {}
 
   regenerate-unicode-properties@10.2.0:
     dependencies:
@@ -3698,7 +3712,7 @@ snapshots:
 
   tslib@2.6.2: {}
 
-  tsup@8.5.1(jiti@2.6.1)(typescript@5.9.3)(yaml@2.8.1):
+  tsup@8.5.1(jiti@2.6.1)(typescript@5.9.3)(yaml@2.8.2):
     dependencies:
       bundle-require: 5.1.0(esbuild@0.27.0)
       cac: 6.7.14
@@ -3709,7 +3723,7 @@ snapshots:
       fix-dts-default-cjs-exports: 1.0.1
       joycon: 3.1.1
       picocolors: 1.1.1
-      postcss-load-config: 6.0.1(jiti@2.6.1)(yaml@2.8.1)
+      postcss-load-config: 6.0.1(jiti@2.6.1)(yaml@2.8.2)
       resolve-from: 5.0.0
       rollup: 4.55.1
       source-map: 0.7.6
@@ -3772,4 +3786,4 @@ snapshots:
 
   yallist@4.0.0: {}
 
-  yaml@2.8.1: {}
+  yaml@2.8.2: {}
