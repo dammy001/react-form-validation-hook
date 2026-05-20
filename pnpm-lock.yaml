@@ -40,11 +40,11 @@ importers:
         specifier: 29.0.2
         version: 29.0.2(rollup@4.60.4)
       '@types/react':
-        specifier: 18.3.28
-        version: 18.3.28
+        specifier: 18.3.29
+        version: 18.3.29
       '@types/react-dom':
         specifier: 18.3.7
-        version: 18.3.7(@types/react@18.3.28)
+        version: 18.3.7(@types/react@18.3.29)
       bumpp:
         specifier: 11.1.0
         version: 11.1.0
@@ -1153,8 +1153,8 @@ packages:
     peerDependencies:
       '@types/react': ^18.0.0
 
-  '@types/react@18.3.28':
-    resolution: {integrity: sha512-z9VXpC7MWrhfWipitjNdgCauoMLRdIILQsAEV+ZesIzBq/oUlxk0m3ApZuMFCXdnS4U7KrI+l3WRUEGQ8K1QKw==}
+  '@types/react@18.3.29':
+    resolution: {integrity: sha512-ch0qJdr2JY0r04NXSprbK6TXOgnaJ1Tz23fm5W+z0/CBah6BSBc3n96h7K9GOtwh0HrilNWHIBzE1Ko4Dcw/Wg==}
 
   acorn@8.15.0:
     resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
@@ -3030,11 +3030,11 @@ snapshots:
 
   '@types/prop-types@15.7.5': {}
 
-  '@types/react-dom@18.3.7(@types/react@18.3.28)':
+  '@types/react-dom@18.3.7(@types/react@18.3.29)':
     dependencies:
-      '@types/react': 18.3.28
+      '@types/react': 18.3.29
 
-  '@types/react@18.3.28':
+  '@types/react@18.3.29':
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.2.3
